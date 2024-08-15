@@ -1,0 +1,9 @@
+include *.txt
+include *.md
+recursive-include ./pred_model/*
+
+recursive-exclude * __pycache__
+recursive-exclude ./pred_model/data/*
+recursive-exclude ./pred_model/results/*
+recursive-exclude ./pred_model/trained_models/*
+recursive-exclude * *.py[co]

@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pred_model
+Version: 1.0.0
+Summary: Mushroom Classification Model
+Home-page: https://github.com/akashsp7
+Author: Akash Pawar
+Author-email: akashpawar9619@gmail.com
+Requires-Python: >=3.12.0
+Description-Content-Type: text/markdown
+Requires-Dist: ipykernel==6.29.5
+Requires-Dist: numpy==2.0.1
+Requires-Dist: pandas==2.2.2
+Requires-Dist: scikit-learn==1.5.1
+Requires-Dist: seaborn==0.13.2
+Requires-Dist: xgboost==2.1.1
+Requires-Dist: setuptools==72.2.0
+
+Mushroom Classification Model
