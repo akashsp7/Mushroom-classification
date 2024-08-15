@@ -1,12 +1,3 @@
-import pandas as pd
-import numpy as np 
-from pathlib import Path
-import os
-import sys
-
-PACKAGE_ROOT = os.path.abspath(os.path.join(os.getcwd(), os.pardir))
-sys.path.append(str(PACKAGE_ROOT))
-
 from pred_model.config import config  
 from pred_model.processing.data_handling import load_dataset,save_pipeline
 import pred_model.pipeline as pipe 

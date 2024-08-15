@@ -1,11 +1,4 @@
 from sklearn.base import BaseEstimator,TransformerMixin
-import os
-import sys
-
-PACKAGE_ROOT = os.path.abspath(os.path.join(os.getcwd(), os.pardir, os.pardir))
-sys.path.append(str(PACKAGE_ROOT))
-
-from pred_model.config import config
 import numpy as np
 from sklearn.preprocessing import OrdinalEncoder
 from sklearn.impute import SimpleImputer

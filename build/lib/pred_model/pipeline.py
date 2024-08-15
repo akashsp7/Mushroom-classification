@@ -1,12 +1,4 @@
-
-import os
-import sys
-
-PACKAGE_ROOT = os.path.abspath(os.path.join(os.getcwd(), os.pardir))
-sys.path.append(str(PACKAGE_ROOT))
-
 from sklearn.pipeline import Pipeline
-import numpy as np
 from pred_model.config import config
 import pred_model.processing.preprocessing as pp 
 from sklearn.preprocessing import MinMaxScaler
