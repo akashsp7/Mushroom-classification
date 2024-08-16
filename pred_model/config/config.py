@@ -3,6 +3,7 @@ import numpy as np
 MODEL_NAME = 'mushroom_model'
 TRAIN_FILE = 'train.csv'
 TEST_FILE = 'test.csv'
+ZIP_FILE = 'data.zip'
 TARGET = 'class'
 
 #Initial features used in the model

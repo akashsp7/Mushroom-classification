@@ -6,4 +6,6 @@ recursive-exclude * __pycache__
 recursive-exclude ./pred_model/data/*
 recursive-exclude ./pred_model/results/*
 recursive-exclude ./pred_model/trained_models/*
+recursive-exclude ./pred_model/training_pipeline.py
+recursive-exclude ./pred_model/predict.py
 recursive-exclude * *.py[co]
