@@ -1,18 +1,8 @@
-import os
 import numpy as np
-from pathlib import Path
-
-ROOT = Path(__file__).resolve().parent.parent
-
-DATAPATH = ROOT/"data"/"playground-series-s4e8"
-
-TRAIN_FILE = 'train.csv'
-TEST_FILE = 'test.csv'
 
 MODEL_NAME = 'mushroom_model'
-SAVE_MODEL_PATH = os.path.join(ROOT,'trained_models')
-SAVE_RESULTS_PATH = os.path.join(ROOT,'results')
-
+TRAIN_FILE = 'train.csv'
+TEST_FILE = 'test.csv'
 TARGET = 'class'
 
 #Initial features used in the model
