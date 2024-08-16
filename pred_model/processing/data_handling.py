@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 import joblib
-from pred_model import config
+from pred_model.config import config
 
 #Load the dataset
 def load_dataset(filepath):

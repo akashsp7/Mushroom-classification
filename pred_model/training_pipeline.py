@@ -22,8 +22,7 @@ if not os.path.exists(train_csv_path):
     if os.path.exists(zip_file_path):
         # Unzip the file
         with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:
-            zip_ref.extractall()  
-        train_csv_path = os.path.join(datapath, zip_file_name, config.TRAIN_FILE)    
+            zip_ref.extractall(datapath)  
         print(f"'{config.ZIP_FILE}' has been unzipped.")
     else:
         print(f"'{config.ZIP_FILE}' not found.")
