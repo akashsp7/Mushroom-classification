@@ -31,6 +31,7 @@ else:
     print(f"'{config.TEST_FILE}' found.")
 
 classification_pipeline, model_name = load_pipeline(load_model_path)
+model_name = os.path.splitext(model_name)[0]
 
 def generate_predictions(data_input):
     data = load_dataset(data_input)
