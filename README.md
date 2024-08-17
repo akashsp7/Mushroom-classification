@@ -34,7 +34,7 @@ Step-by-step instructions on how to install the necessary dependencies on mac.
 4. **Prediction**
    Open terminal inside pred_model folder and run predict.py.
    ```bash
-   python3 training_pipeline.py
+   python3 predict.py
    ```
    
 ## Config
